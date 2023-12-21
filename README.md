@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # GRAPHQL
 
 This is school project that help to learn about GRAPHQL.
