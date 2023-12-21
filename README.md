@@ -36,13 +36,7 @@ Beside those sections it will have a mandatory section for the generation of sta
 ## Usage
 Note:Sometimes it doesn't want to load up on the first try, to fix it refresh the page
 Use live-server from index.html or
-[Link to page](https://kristjanl1.github.io/)
+
+[Link to page](https://ruudel.github.io)
 
 you can only Login with your kood account
-
-## Authors
-
-- [@KristjanL](https://01.kood.tech/git/KristjanL)
-=======
-# Doing the stuff
->>>>>>> 54488dae9f6e32db2bf10dbc11d92bffc5d08d93
