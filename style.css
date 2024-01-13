@@ -288,3 +288,8 @@ input[type="submit"]:active
     height: calc(20vw - 2px);
   }
 }
+section span:hover 
+{
+  background: #0f0;
+  transition: 0.5s;
+}
