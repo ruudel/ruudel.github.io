@@ -128,7 +128,6 @@ section::before
     background: darkslategray;
     padding: 15px;
     border-radius: 4px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
   }
   .x-axis path,
   .x-axis line {
@@ -142,7 +141,7 @@ section::before
   .y-axis path,
   .y-axis line {
       
-      stroke: yellowgreen;
+      stroke: #9acd32;
   }
   h2, h3, p{
     color: yellowgreen;
@@ -261,7 +260,7 @@ section .signin .content .form .inputBox i
 .signin .content .form .inputBox input[type="submit"]
 {
   padding: 10px;
-  background: yellowgreen;
+  background: black;
   color: #000;
   font-weight: 600;
   font-size: 1.35em;
