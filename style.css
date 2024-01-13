@@ -26,7 +26,13 @@ section
   flex-wrap: wrap;
   overflow: hidden;
 }
-
+section::before 
+{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 @keyframes animate 
 {
   0%
