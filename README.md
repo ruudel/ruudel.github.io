@@ -2,7 +2,7 @@
 
 This is school project that help to learn about GRAPHQL.
 
-[Live Server](https://kristjanl1.github.io/)
+[Live Server](https://ruudel.github.io/)
 
 ## Project goals
 
