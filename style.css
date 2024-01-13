@@ -109,7 +109,7 @@ section::before
     position: absolute;
     width: 100%;
     max-width: 24%;
-    background: darkslategray;
+    background: black;
     z-index: 1000;
     display: block;
     justify-content: center;
