@@ -76,8 +76,9 @@ const xAxis = d3.axisBottom(xScale)
 .tickSizeOuter(0); // Hide the outer ticks
 
 const yAxis = d3.axisLeft(yScale)
-.ticks(10) // Adjust the number of ticks on the y-axis
+.ticks(5) // Adjust the number of ticks on the y-axis
 .tickSizeInner(-innerWidth) // Add ticks inside the chart area
+.tickSizeOuter(5); // Hide the outer ticks
 
 svg.append("g")
 .attr("class", "x-axis")

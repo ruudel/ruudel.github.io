@@ -128,6 +128,7 @@ section::before
     background: darkslategray;
     padding: 15px;
     border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
   }
   .x-axis path,
   .x-axis line {
@@ -214,7 +215,7 @@ section .signin .content .form .inputBox input
 {
   position: relative;
   width: 100%;
-  background: darkslategray;
+  background: yellowgreen;
   border: none;
   outline: none;
   padding: 25px 10px 7.5px;
