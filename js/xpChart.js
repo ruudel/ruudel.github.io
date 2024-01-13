@@ -7,18 +7,6 @@ function getXpGraphInfo() {
   }
 }
 const xpData = getXpGraphInfo();
-console.log("xpData",xpData);
-  
-  // Your XP data
-  // const xpData = [{ date: "2021-09-27T13:36:33.53793+00:00", xp: 5000 }, { date: "2021-10-06T12:36:50.806103+00:00", xp: 6125 },
-  // { date: "2021-11-10T14:24:51.333087+00:00", xp: 9200 }, { date: "2021-12-17T08:25:14.953461+00:00", xp: 24500 },
-  // { date: "2022-05-14T11:04:29.513053+00:00", xp: 76250 }, { date: "2023-07-07T12:09:34.132073+00:00", xp: 103500 },
-  // { date: "2022-12-20T15:24:33.044523+00:00", xp: 6125 }, { date: "2022-12-21T11:23:42.064779+00:00", xp: 6125 },
-  // { date: "2022-12-28T11:01:44.320172+00:00", xp: 10000 }, { date: "2022-06-01T12:25:58.18796+00:00", xp: 147000 },
-  // { date: "2022-05-26T07:57:25.794755+00:00", xp: 9200 }, { date: "2022-02-08T10:26:18.031045+00:00", xp: 34375 },
-  // { date: "2022-04-17T15:53:14.505149+00:00", xp: 9200 }, { date: "2023-02-03T12:34:58.81516+00:00", xp: 6125 },
-  //   ];
-
 
 // Custom date parser
 function parseDate(dateString) {
@@ -90,7 +78,7 @@ const xAxis = d3.axisBottom(xScale)
 const yAxis = d3.axisLeft(yScale)
 .ticks(5) // Adjust the number of ticks on the y-axis
 .tickSizeInner(-innerWidth) // Add ticks inside the chart area
-.tickSizeOuter(0); // Hide the outer ticks
+.tickSizeOuter(1); // Hide the outer ticks
 
 svg.append("g")
 .attr("class", "x-axis")

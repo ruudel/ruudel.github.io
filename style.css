@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 *
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif;
 }
 body 
 {
@@ -146,11 +145,11 @@ section::before
       stroke: #007200;
   }
   h2, h3, p{
-    color: #0f0;
+    color: yellowgreen;
   }
   #logoutButton{
     padding: 10px;
-  background: #0f0;
+  background: yellowgreen;
   color: #000;
   font-weight: 600;
   font-size: 1.35em;
@@ -169,11 +168,7 @@ section span
   z-index: 2;
   transition: 1.5s;
 }
-section span:hover 
-{
-  background: #0f0;
-  transition: 0.5s;
-}
+
 
 section .signin
 {
@@ -201,7 +196,7 @@ section .signin .content
 section .signin .content h2 
 {
   font-size: 2em;
-  color: #0f0;
+  color: yellowgreen;
   text-transform: uppercase;
 }
 section .signin .content .form 
@@ -260,13 +255,13 @@ section .signin .content .form .inputBox i
 }
 .signin .content .form .links a:nth-child(2)
 {
-  color: #0f0;
+  color: yellowgreen;
   font-weight: 600;
 }
 .signin .content .form .inputBox input[type="submit"]
 {
   padding: 10px;
-  background: #0f0;
+  background: yellowgreen;
   color: #000;
   font-weight: 600;
   font-size: 1.35em;
