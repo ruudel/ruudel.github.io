@@ -16,10 +16,10 @@ const radarChartDiv = document.getElementById('radarCanvas');
         labels: [
           "Go",
           "Html",
+          "CSS",
           "JS",
           "Sql",
           "Docker",
-          "Css",
         ],
         datasets: [
           {
@@ -71,8 +71,8 @@ const radarChartDiv = document.getElementById('radarCanvas');
         },
         scale: {
           ticks: {
-            min: 0, // suggestedMin: 0,
-            max: 50, //suggestedMax: 50
+            min: 0,
+            max: 50,
             stepSize: 25,
             color: "#9acd32",
           },

@@ -1,6 +1,6 @@
 const jwtToken = localStorage.getItem("jwtToken"); // You need to store the token in localStorage in the login function
 
-const graphqlEndpoint = "https://01.kood.tech/api/graphql-engine/v1/graphql"; // Replace with your GraphQL API endpoint
+const graphqlEndpoint = "https://01.kood.tech/api/graphql-engine/v1/graphql"; 
 const query = `
   query {
     user{
@@ -68,7 +68,7 @@ fetch(graphqlEndpoint, {
     const transactionProjects = [];
     const transactionExercises = [];
     const modifiedSkillAmounts = {};
-    const skillOrder = ["go", "html", "js", "sql", "docker", "css"];
+    const skillOrder = ["go", "html", "css", "js", "sql", "docker"];
     const skillAmounts = [];
     let projectsXp = 0;
     let exercisesXp = 0;
