@@ -24,7 +24,7 @@ const radarChartDiv = document.getElementById('radarCanvas');
         datasets: [
           {
             label: "Skills",
-            fill: false,
+            fill: true,
             lineTension: 0,
             backgroundColor: "#007200",
             borderColor: "#9acd32",
