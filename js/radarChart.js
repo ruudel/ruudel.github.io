@@ -18,8 +18,6 @@ const radarChartDiv = document.getElementById('radarCanvas');
           "Html",
           "CSS",
           "JS",
-          "Sql",
-          "Docker",
           "Game",
           "Front end",
           "Back end",
