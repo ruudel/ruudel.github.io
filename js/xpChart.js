@@ -87,7 +87,7 @@ svg.append("g")
 .attr("transform", `translate(0, ${innerHeight})`)
 .call(xAxis)
 .selectAll("text")
-.attr("dy","1em");
+.attr("dy","2em");
 
 svg.append("g")
 .attr("class", "y-axis")
