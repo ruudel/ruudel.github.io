@@ -85,8 +85,10 @@ const yAxis = d3.axisLeft(yScale)
 svg.append("g")
 .attr("class", "x-axis")
 .attr("transform", `translate(0, ${innerHeight})`)
-.call(xAxis);
+.call(xAxis)
+.attr("dy","2em");
 
 svg.append("g")
 .attr("class", "y-axis")
-.call(yAxis);
+.call(yAxis)
+.attr("dx","-2em");
