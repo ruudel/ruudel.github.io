@@ -48,7 +48,10 @@ const xScale = d3.scaleTime()
 
 //.domain([d3.min(parsedData, d => d.date), d3.max(parsedData, d => d.date)])
 //.domain(d3.extent(parsedData, d => d.date))
-.domain([new Date(0), d3.max(parsedData, d => d.date)])
+.domain([
+  d3.min(parsedData, d => d.date), // Minimum date with data
+  d3.max(parsedData, d => d.date)
+])
 .range([0, innerWidth]);
 
 const yScale = d3.scaleLinear()
