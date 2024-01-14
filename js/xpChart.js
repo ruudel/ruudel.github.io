@@ -45,10 +45,8 @@ const innerHeight = height - margin.top - margin.bottom;
 
 // Step 2: Create scales for x and y axes
 const xScale = d3.scaleTime()
-
 .domain([d3.min(parsedData, d => d.date), d3.max(parsedData, d => d.date)])
-//.domain(d3.extent(parsedData, d => d.date))
-.range([0, innerWidth]);
+  .range([0, innerWidth]);
 
 const yScale = d3.scaleLinear()
 .domain([0, d3.max(parsedData, d => d.xp)])
