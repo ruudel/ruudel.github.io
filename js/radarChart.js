@@ -45,6 +45,14 @@ const radarChartDiv = document.getElementById('radarCanvas');
         ],
       },
       options: {
+        plugins:{
+          legend:{
+            display:false
+          },
+          label:{
+            display:false
+          }
+        },
         scales: {
           r:{
             angleLines:{
