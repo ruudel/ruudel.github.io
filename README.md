@@ -1,9 +1,5 @@
 # GRAPHQL
 
-This is school project that help to learn about GRAPHQL.
-
-[Live Server](https://ruudel.github.io/)
-
 ## Project goals
 
 The objective of this project is to learn the GraphQL query language, by creating your own profile page.
@@ -34,9 +30,18 @@ Beside those sections it will have a mandatory section for the generation of sta
 - UI/UX
 
 ## Usage
-Note:Sometimes it doesn't want to load up on the first try, to fix it refresh the page
-Use live-server from index.html or
+Note: If the charts do not load fully initially then you can refresh and it should fix itself.
+
 
 [Link to page](https://ruudel.github.io)
+Alternatively - you can also run index.html locally.
 
-you can only Login with your kood account
+You can only Login with your kood/jõhvi account
+
+1. Log in
+2. See your info
+3. See the charts
+4. See the projects panel, it is scrollable
+5. See the exercises panel, it is scrollable
+6. Log out
+7. Give a positive audit :)
