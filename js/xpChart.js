@@ -38,7 +38,7 @@ item.xp = accumulatedXP;
 console.log("ParsedData",parsedData)
 // Chart dimensions
 const margin = { top: 0, right: 0, bottom: 40, left: 30 };
-const width = 500;
+const width = 480;
 const height = 300;
 const innerWidth = width - margin.left - margin.right;
 const innerHeight = height - margin.top - margin.bottom;
@@ -67,7 +67,7 @@ svg.append("path")
 .datum(parsedData)
 .attr("fill", "none")
 .attr("stroke", "limegreen")
-.attr("stroke-width", 0)
+.attr("stroke-width", 2)
 .attr("d", line);
 
 // Step 6: Draw the x and y axes with additional styling options
