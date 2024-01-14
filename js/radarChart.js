@@ -15,17 +15,14 @@ const radarChartDiv = document.getElementById('radarCanvas');
       data: {
         labels: [
           "Go",
-          "Html",
-          "CSS",
+          "HTML",
           "JS",
           "Game",
-          "Front end",
-          "Back end",
-          "Algo",
+          "Algorithms",
         ],
         datasets: [
           {
-            label: "Skills",
+            label: "Skill level",
             fill: true,
             lineTension: 0,
             backgroundColor: "#007200",
