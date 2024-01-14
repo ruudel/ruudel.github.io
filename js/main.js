@@ -156,12 +156,12 @@ for (const skillName in modifiedSkillAmounts) {
     transactionProjectsDiv.textContent = transactionProjects.join("");
     transactionExercisesDiv.textContent = transactionExercises.join("");
     allSkillsDiv.innerHTML = skillsHTML;
-    projectsXpDiv.textContent = `Div 1  Total XP: ${Math.round(projectsXp)}`;
-    exercisesXpDiv.textContent = `Other Total XP: ${Math.round(exercisesXp)}`;
+    projectsXpDiv.textContent = `Projects Total XP: ${Math.round(projectsXp)}`;
+    exercisesXpDiv.textContent = `Exercises Total XP: ${Math.round(exercisesXp)}`;
     totalXp = projectsXp + exercisesXp;
-    totalXpDiv.textContent = `Users total XP: ${Math.round(totalXp)}`;
-    userLevelDiv.textContent = `User Level : ${level}`;
-    auditRatioDiv.textContent = `Audit Ratio : ${
+    totalXpDiv.textContent = `User's total XP: ${Math.round(totalXp)}`;
+    userLevelDiv.textContent = `User level : ${level}`;
+    auditRatioDiv.textContent = `Audit ratio : ${
       Math.round(data.data.user[0].auditRatio * 100) / 100
     }`;
   })
