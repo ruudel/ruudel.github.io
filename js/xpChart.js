@@ -37,7 +37,7 @@ item.xp = accumulatedXP;
 }
 console.log("ParsedData",parsedData)
 // Chart dimensions
-const margin = { top: 0, right: 0, bottom: 0, left: 0 };
+const margin = { top: 0, right: 0, bottom: 40, left: 30 };
 const width = 500;
 const height = 300;
 const innerWidth = width - margin.left - margin.right;
@@ -73,12 +73,12 @@ svg.append("path")
 // Step 6: Draw the x and y axes with additional styling options
 const xAxis = d3.axisBottom(xScale)
 .tickSizeInner(-innerHeight) // Add ticks inside the chart area
-.tickSizeOuter(0); // Hide the outer ticks
+.tickSizeOuter(10); // Hide the outer ticks
 
 const yAxis = d3.axisLeft(yScale)
 .ticks(5) // Adjust the number of ticks on the y-axis
 .tickSizeInner(-innerWidth) // Add ticks inside the chart area
-.tickSizeOuter(5); // Hide the outer ticks
+.tickSizeOuter(10); // Hide the outer ticks
 
 svg.append("g")
 .attr("class", "x-axis")
