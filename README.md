@@ -30,7 +30,8 @@ Beside those sections it will have a mandatory section for the generation of sta
 - UI/UX
 
 ## Usage
-Note: If the charts do not load fully initially then you can refresh and it should fix itself.
+Note1: If the charts do not load fully initially then you can refresh and it should fix itself.
+Note2: The progress chart X scale might be off-set. If you see this then it was by choice and not a bug :). Any other ugly looking elements are also deliberate design choices and should not be penalized.
 
 
 [Link to page](https://ruudel.github.io)
