@@ -20,6 +20,10 @@ const radarChartDiv = document.getElementById('radarCanvas');
           "JS",
           "Sql",
           "Docker",
+          "Game",
+          "Front end",
+          "Back end",
+          "Algo",
         ],
         datasets: [
           {
