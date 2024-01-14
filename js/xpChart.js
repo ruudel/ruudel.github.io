@@ -37,7 +37,7 @@ item.xp = accumulatedXP;
 }
 console.log("ParsedData",parsedData)
 // Chart dimensions
-const margin = { top: 0, right: 0, bottom: 40, left: 30 };
+const margin = { top: 0, right: 0, bottom: 0, left: 0 };
 const width = 500;
 const height = 300;
 const innerWidth = width - margin.left - margin.right;
