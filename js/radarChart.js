@@ -62,7 +62,7 @@ const radarChartDiv = document.getElementById('radarCanvas');
               color: "#007200",
             },
             pointLabels:{
-              display: false,
+              color: "9acd32",
             },
             ticks:{
               display: false,
