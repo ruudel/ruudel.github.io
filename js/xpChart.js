@@ -67,18 +67,18 @@ svg.append("path")
 .datum(parsedData)
 .attr("fill", "none")
 .attr("stroke", "limegreen")
-.attr("stroke-width", 2)
+.attr("stroke-width", 0)
 .attr("d", line);
 
 // Step 6: Draw the x and y axes with additional styling options
 const xAxis = d3.axisBottom(xScale)
 .tickSizeInner(-innerHeight) // Add ticks inside the chart area
-.tickSizeOuter(10); // Hide the outer ticks
+.tickSizeOuter(10);
 
 const yAxis = d3.axisLeft(yScale)
 .ticks(5) // Adjust the number of ticks on the y-axis
 .tickSizeInner(-innerWidth) // Add ticks inside the chart area
-.tickSizeOuter(10); // Hide the outer ticks
+.tickSizeOuter(10);
 
 svg.append("g")
 .attr("class", "x-axis")
