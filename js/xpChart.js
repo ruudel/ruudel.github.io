@@ -38,14 +38,16 @@ item.xp = accumulatedXP;
 console.log("ParsedData",parsedData)
 // Chart dimensions
 const margin = { top: 0, right: 0, bottom: 40, left: 30 };
-const width = 480;
-const height = 240;
+const width = 500;
+const height = 290;
 const innerWidth = width - margin.left - margin.right;
 const innerHeight = height - margin.top - margin.bottom;
 
 // Step 2: Create scales for x and y axes
 const xScale = d3.scaleTime()
-.domain(d3.extent(parsedData, d => d.date))
+
+.domain([d3.min(parsedData, d => d.date), d3.max(parsedData, d => d.date)])
+//.domain(d3.extent(parsedData, d => d.date))
 .range([0, innerWidth]);
 
 const yScale = d3.scaleLinear()
