@@ -68,7 +68,7 @@ fetch(graphqlEndpoint, {
     const transactionProjects = [];
     const transactionExercises = [];
     const modifiedSkillAmounts = {};
-    const skillOrder = ["go", "html", "css", "js", "game", "front end", "back end","algo"];
+    const skillOrder = ["go", "html", "css", "js", "game", "front_end", "back","algo"];
     const skillAmounts = [];
     let projectsXp = 0;
     let exercisesXp = 0;
